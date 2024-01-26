@@ -125,9 +125,6 @@ body{
     
 }
 
-
-
-
 .find-a-gift{
     display: block;
     width: 96%;
@@ -196,6 +193,39 @@ body{
 
 /* FOOTER*/
 
+.back{
+    background: #364759;
+    height: 50px;
+    align-items: center;
+}
 
+.back p{
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+        
+}
+.back a{
+    margin-top: 15px;
+    text-decoration: underline;
+    color: white;
+    font-family: sans-serif;
+    
+}
 
+.logo2{
+    display: flex;
+    background: #222F3F;
+    height: 180px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
+.logo2 img{
+    width: 100px;
+    height: auto;
+    
+}
