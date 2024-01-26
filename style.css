@@ -1,0 +1,194 @@
+
+/* HEADER*/
+
+.head img{
+    width: 90px;
+    height: auto;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+.head{
+    background-color: #222F3F;
+    height: 50px;
+       
+}
+
+#menu-o{
+    margin: 0;
+    background-color: #364759;
+    width: 100%;
+    height: 30px;
+    list-style-type: none;
+    padding: 0;
+    
+    
+}
+
+#menu-o li{
+    margin-top: 12px;
+    display: inline;
+    margin-left: 20px;
+    
+    
+}
+
+#menu-o a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    padding: 6px;
+    
+
+    
+}
+
+/* BODY*/
+
+body{
+    margin: 0;
+    background-color: #E9EDEE;
+}
+
+
+.shop-all{
+    background: #F56600;
+    display: block;
+    width: auto;
+    height: 30px;
+    margin: 25px 30px 25px 30px;
+}
+
+.shop-all a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+        
+}
+
+/* MAIN*/
+
+.holiday img{
+    display: block;
+    width: auto;
+    height: 100px;
+    margin: 25px 30px 25px 30px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+
+}
+
+.holiday{
+    background-image: url(".//images/bg-image.png");
+    background-repeat: repeat;
+    background-position: top left, center;
+    height: 200px;
+    margin: 25px 30px 25px 30px;
+    text-align: center;
+    display: block;
+    
+}
+
+.holiday p{
+    font-family: sans-serif;
+    text-decoration-style: bold;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-bottom: 0px;
+    
+}
+
+.holiday span{
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    
+}
+
+.find-a-gift{
+    display: block;
+    width: 96%;
+    height: 500px;
+    background-color: white;
+    margin: 25px 30px 25px 30px;
+
+}
+
+.find-a-gift p{
+    height: 30px;
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 1.2rem;
+    display: inline;
+    padding: 20px 12px 20px 20px;
+}
+
+.find-a-gift span{
+    height: 15px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 20px 12px 20px 5px;
+    text-align: center;
+    
+}
+
+.bloco1{
+    display: inline-flex;
+}
+
+.images img {
+    display: inline-block;
+    padding: 20px;
+    display: inline-block;
+    max-width: 280px; /*não mexer */
+    max-height: 600px; /*não mexer */
+    width: 100%;
+    height: 300px;
+    
+
+
+}
+
+.play{
+    display: block;
+    width: auto;
+    height: 200px;
+    background-color: white;
+    margin: 25px 30px 25px 30px;
+
+}
+
+.play img{
+    display: block;
+    width: auto;
+    height: 215px;
+    margin: 25px 0px 25px 0px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* FOOTER*/
