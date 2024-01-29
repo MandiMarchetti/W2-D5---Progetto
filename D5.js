@@ -1,5 +1,4 @@
-/*
-REGOLE
+/*REGOLE
 - Tutte le risposte devono essere scritte in JavaScript
 - Puoi usare Google / StackOverflow ma solo quanto ritieni di aver bisogno di qualcosa che non è stato spiegato a lezione
 - Puoi testare il tuo codice in un file separato, o de-commentando un esercizio alla volta
