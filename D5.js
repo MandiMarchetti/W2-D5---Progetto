@@ -56,14 +56,18 @@ const cars = [
     color: 'black',
     trims: ['life', 'style', 'r-line'],
   },
-]
+];
 
 const lincensePlates1 = ""
 cars.forEach(oggetto => {
   oggetto.licensePlate=lincensePlates1;
-});
+  
+   console.log(cars);
+ });
 
-console.log(cars);
+ cars[0].licensePlate = "XXX000";
+ cars[1].licensePlate = "ZZZ111";
+ cars[2].licensePlate = "AAA222";
 
 
 
@@ -73,12 +77,36 @@ console.log(cars);
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+const nuovoOggetto = {
+    brand: 'Fiat',
+    model: 'Uno',
+    color: 'Pink',
+    trims: ['life', 'style', 'r-line'],
+    licensePlate:'BBB333',
+}
+
+cars.push(nuovoOggetto);
+console.log(cars);
+
+
+const carsClone = cars.slice();
+
+  delete carsClone[0].trims;
+  delete carsClone[1].trims;
+  delete carsClone[2].trims;
+  delete carsClone[3].trims;
+
+
+console.log(carsClone);
+
 
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = []
+
+
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
