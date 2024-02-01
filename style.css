@@ -134,30 +134,33 @@ body{
 
 }
 
-.find-a-gift p{
+.find{
     height: 35px;
+    align-items: center;
+    
+}
+
+.find-a-gift p{
     font-family: sans-serif;
     font-weight:lighter;
     font-size: 1.2rem;
     display: inline;
-    padding: 20px 12px 20px 20px;
+    padding: 0px 12px 0px 20px;
 }
 
 .find-a-gift a{
-    height: 35px;
     font-family: sans-serif;
     font-size: 0.8rem;
     text-decoration: none;
+    color: #106B80;
 }
 
-.shop-now{
-    padding: 0px 25px 25px 25px;
-}
 
 main p{
     display: inline;
     font-family: sans-serif;
     font-weight: bold;
+    
 }
 
 main a{
@@ -168,9 +171,9 @@ main a{
 }
 
 
-
 .bloco1{
     display: inline-flex;
+    padding-top: 35px;
 }
 
 .images img {
@@ -182,15 +185,23 @@ main a{
     max-height: 600px; /*não mexer */
     border-radius: 15%;
     object-fit: cover;
+    box-shadow: black, 2px 10px 8px 0px;
     
 }
 
 
+.shop-now{
+    display: block;
+    text-align: center ;
+    padding: 0px 25px 15px 25px;
+    
+}
 
 .shop-now p{
     font-family: sans-serif;
     text-align: center;
-    font-size: 1.2rem; ;
+    font-weight:lighter;
+    font-size: 1rem;
     
 }
 
@@ -198,6 +209,7 @@ main a{
     font-family: sans-serif;
     text-decoration: none;
     font-size: 0.8rem;
+    color: #106B80;
 }
 
 .play{
@@ -205,7 +217,7 @@ main a{
     width: auto;
     height: 320px;
     background-color: white;
-    margin: 25px 30px 5px 30px;
+    margin: 0px 30px 5px 30px;
 
 }
 
