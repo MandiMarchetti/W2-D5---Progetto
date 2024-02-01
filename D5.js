@@ -108,6 +108,14 @@ console.log(carsClone);
 const justTrims = [];
 
 const carscopy = cars.slice();
+carscopy.forEach(car =>{
+
+  if (car.trims && car.trims.length>0){
+    justTrims.push(car.trims[0]);
+  }
+});
+
+console.log(justTrims);
 
 
 /* ESERCIZIO 8
