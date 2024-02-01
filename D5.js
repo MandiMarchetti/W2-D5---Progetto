@@ -104,8 +104,10 @@ console.log(carsClone);
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
-const justTrims = []
 
+const justTrims = [];
+
+const carscopy = cars.slice();
 
 
 /* ESERCIZIO 8
